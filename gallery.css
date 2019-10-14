@@ -1,0 +1,111 @@
+
+*{
+
+	margin: 0;
+	padding: 0;
+	width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+body{
+background-color: burlywood;
+
+
+
+
+}
+
+
+.sidenav{
+
+    height: 100%;
+    width:0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left:0;
+    background-color: black;
+    opacity: 0.9;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+
+
+}
+
+.sidenav a{
+
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+
+}
+
+
+.sidenav a:hover, .ofcanvas a:focus{
+
+    color: #f1f1f1;
+    background-color: green;
+    font-size: 30px;
+}
+
+.sidenav .closebtn {
+
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 46px;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+.wrapper h1{
+
+	text-align: center;
+	font-size: 30px;
+
+}
+.single-img{
+
+	width: 30%;
+	height: auto;
+	padding: 0 20px 20px;
+
+
+
+}
+
+.img-area{
+
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+}
+
+img:hover{
+
+	opacity: 0.6;
+	transition: 0.9s;
+
+}
+
+.wrapper h1{
+
+padding: 30px;
+
+}
