@@ -292,15 +292,22 @@ footer{
  #contact{
      font-size: 12.5px;
  }
+ #contact h2{
+    font-size: 13.5px;
+    padding: 8px;
+  
+}
     #contact-sec{
         width:80%;
         text-align: center;
         position: relative;
         top:70px;
         left: 30px;
+        line-height: 10px;
     }
 .acc{
-    left:1em
+    left:1em;
+    padding: 0;
 }
 
 
