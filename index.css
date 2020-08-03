@@ -196,13 +196,14 @@ section{
     text-align: center;
     position: relative;
     top:190px;
-    left: 90px;
+    left: 8em;
+    line-height: 12px;
 }
 #contact-sec h2{
-    padding: 20px;
+    padding-bottom: 35px;
 }
 #info{
-    width: 25%;
+    width: 95%;
     font-size: 13px;
     padding: 20px;
     background: rgb(184, 179, 179);
@@ -213,9 +214,19 @@ img{
 }
 #last{
     display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-self: center;
     position: relative;
-    top: 230px;
-    left: 350px;
+    top: 235px;
+    width: 35%;
+    margin-left: 30em;
+    
+}
+.acc{
+  padding-top: 20px;
+    position: relative;
+    font-size: 14px;
 }
 footer{
     text-align: center;
@@ -243,7 +254,7 @@ footer{
         display:flex;
         position: relative;
         top: 110px;
-        left: 10px;
+      
     }
     #about h1{
         padding-bottom: 10px;
@@ -276,6 +287,7 @@ footer{
     #donate{
         width: 100px;
     }
+ 
     #contact-sec{
         width:80%;
         text-align: center;
@@ -284,6 +296,33 @@ footer{
         left: 30px;
     }
 
+
+
+  
+    
+   
+     #info{
+        width: 90%;
+        font-size: 12px;
+       
+        padding: 10px;
+        background: rgb(184, 179, 179);
+    
+    }
+    
+    
+    
+    #last{
+        width:80%;
+        text-align: center;
+        position: relative;
+        top:6em;
+        right: 28em;
+
+ 
+        
+    }
+   
     
 
 #btn{
@@ -302,14 +341,7 @@ footer{
     margin-left: 10px;
 }
     
-    #info{
-        width: 50%;
-        font-size: 12px;
-       
-        padding: 10px;
-        background: rgb(184, 179, 179);
-    
-    }
+  
 
     form{
      
