@@ -315,11 +315,11 @@ footer{
     
    
      #info{
-        width: 90%;
+        width: 100%;
         font-size: 12px;
        
         padding: 10px;
-        background: rgb(184, 179, 179);
+        background: rgba(235, 229, 229, 0.281);
     
     }
     
