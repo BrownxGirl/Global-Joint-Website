@@ -289,7 +289,9 @@ footer{
     #donate{
         width: 100px;
     }
- 
+ #contact{
+     font-size: 12.5px;
+ }
     #contact-sec{
         width:80%;
         text-align: center;
@@ -297,7 +299,9 @@ footer{
         top:70px;
         left: 30px;
     }
-
+.acc{
+    left:1em
+}
 
 
   
@@ -401,7 +405,7 @@ footer{
         display: flex;
         flex-direction: column;
         margin-top: 5px;
-        font-size: 11.9px;
+        font-size: 12px;
     
     }
     #focus{
@@ -417,7 +421,7 @@ footer{
         font-weight: 500;
     }
     #programme-sec{
-        width:95%;
+        width:85%;
         text-align: center;
         position: relative;
         top:10px;
