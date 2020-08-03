@@ -190,7 +190,9 @@ section{
 .prog h3{
     padding: 20px;
 }
-
+#contact{
+    height: 112vh;
+}
 #contact-sec{
     width:80%;
     text-align: center;
