@@ -20,12 +20,15 @@ li:hover{
 
 
 #btn:hover{
-
 color: white; 
 background: rgba(0, 0, 0, 0.514);
-   
-
 }
+#btn2:hover{
+    color: white; 
+    background: rgba(0, 0, 0, 0.514);
+    }
+    
+    
 
 
 
@@ -37,7 +40,7 @@ ul{
 }
 
 header{
-    background: black;
+    background: transparent;
     position: fixed;
     width: 100%;
     height: 120px;
@@ -51,76 +54,100 @@ header li{
     bottom: 70px;
  }
 
-header-img{
-    
-    float: right;
+#header-img{
+    width: 120px;
+    height: 13.3vh;
+    background-color: white;
 
 }
 
 #image{
-    width: 150px;
+    width: 120px;
 }
+
+
+
+.about-header{
+    background: rgb(201, 132, 5);
+
+    width: 100%;
+    height: 110px;
+    z-index: 1;
+}
+header li{
+    padding: 8px;
+    display: inline;
+    float: right;
+    position: relative;
+    bottom: 60px;
+ }
+
+
 
 #showcase{
     min-height: 100vh;
-    background: url('xxx2.jpg') no-repeat -450px -450px;
+    background: url('xxx3.jpg') no-repeat 0px -422px;
+    background-size: cover;
     text-align: center;
     
+}
+.overlay{
+    background-color: #00000086;
+    height: 100vh;
 }
 #showcase h1{
     text-align: center;
+    font-weight: 100;
+    word-spacing: 3px;
     position: relative;
-    top: 200px;
-    background: rgba(255, 255, 255, 0.623);
-    width: 50%;
-    left: 300px;
-    padding: 20px;
+    top: 300px;
+  color: #ffffff;
+  font-size: 45px;
+    width: 40%;
+   margin: auto;
+ 
 }
-
-#preview{
-    display:flex;
-    margin: 5px;
-    justify-content: center;
+#showcase p{
+    text-align: center;
+    font-weight: 100;
+    word-spacing: 3px;
     position: relative;
-    top: 415px;
-    height: 200px;
-  background: rgba(204, 204, 204, 0.329);
+    top: 315px;
+  color: #ffffff;
+  padding: 10px;
+    width: 40%;
+   margin: auto;
+ 
 }
 
-.preview{
-    width:25%;
-    padding: 25px;
-}
 
-#research{
-    width: 30%;
-}
 
-.pic{
-    width:50px;
-}
 
 
 #btn{
- 
-    background:rgba(0, 0, 0, 0.507);
-    border: white 2px solid;
+    background:rgba(0, 0, 0, 0);
+    border: rgb(248, 246, 246) 1px solid;
     width: 10%;
     padding: 10px;
+   
+
 }
 #btn2{
     
-    background:rgba(0, 0, 0, 0.507);
-    border: white 2px solid;
+    background:rgba(0, 0, 0, 0);
+    border: rgb(248, 246, 246) 1px solid;
     width: 10%;
     padding: 10px;
-    margin-left: 10px;
+    margin-left: 60px;
+    
 }
 .btn{
     display: flex;
     position: relative;
-    top:370px;
-    left: 510px;
+    margin: auto;
+    top:350px;
+     justify-content: center;
+     
 }
 form{
 
@@ -137,7 +164,7 @@ section{
     
 }
 #about{
-    background: #ccc;
+    background: #ffffff;
     
 }
 #contact{
@@ -152,43 +179,50 @@ section{
 }
 .paragraph{
     text-align: center;
+    font-size: 15px;
     width:60%;
     position: relative;
-    top:200px;
-    left: 230px;
+    top: 200px;
+margin: auto;
+}
+.paragraph p{
+    line-height: 26px;
 }
 #box{
     display: flex;
-    margin-top: 80px;
+    margin-top: 40px;
+    padding: 20px;
 
-}
-#focus{
-    flex:2;
 }
 #mission{
-    flex:4;
-    background: rgb(184, 179, 179);
-    padding: 15px;
+    width: 50%;
+    padding-right: 90px;
+  
 }
 
-#box h2{
-    padding: 20px;
-    font-weight: 500;
-}
 #programme-sec{
-    width:80%;
+    
     text-align: center;
     width:60%;
     position: relative;
-    top:90px;
-    left: 230px;
+    top:150px;
+  margin: auto;
+  font-size: 15px;
 }
 
 .prog{
     padding: 20px;
+    width: 100%;
 }
+
+.prog h1{
+    padding-bottom: 50px;
+ font-weight: 100 ;
+   }
+
 .prog h3{
-    padding: 20px;
+ padding-bottom: 35px;
+ font-size:14px ;
 }
 #contact{
     height: 112vh;
@@ -230,14 +264,25 @@ img{
     position: relative;
     font-size: 14px;
 }
-footer{
+#about-footer{
+    margin-top: 355px;
     text-align: center;
     padding: 10px;
-    
-    background: white;
+    height: 15vh;
+    background: rgb(201, 132, 5);
     font-size: 13px;
+    color: whitesmoke;
 }
 
+#prog-footer{
+    margin-top: 220px;
+    text-align: center;
+    padding: 10px;
+    height: 10vh;
+    background: rgb(201, 132, 5);
+    font-size: 13px;
+    color: whitesmoke;
+}
 
 
 
