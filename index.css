@@ -3,7 +3,7 @@
     padding:0;
 }
 body{
-    overflow: hidden;
+    /* overflow: hidden; */
     font-family: Geneva, Tahoma, sans-serif;
   
 }
@@ -56,13 +56,13 @@ header li{
 
 #header-img{
     width: 120px;
-    height: 13.3vh;
+    height: 80px;
     background-color: white;
 
 }
 
 #image{
-    width: 120px;
+    width: 100px;
 }
 
 
@@ -71,7 +71,7 @@ header li{
     background: rgb(201, 132, 5);
 
     width: 100%;
-    height: 110px;
+    height: 80px;
     z-index: 1;
 }
 header li{
@@ -79,10 +79,12 @@ header li{
     display: inline;
     float: right;
     position: relative;
-    bottom: 60px;
+    bottom: 55px;
  }
 
-
+#index-nav{
+bottom:610px;
+}
 
 #showcase{
     min-height: 100vh;
@@ -92,7 +94,7 @@ header li{
     
 }
 .overlay{
-    background-color: #00000086;
+    background-color: #0000009b;
     height: 100vh;
 }
 #showcase h1{
@@ -224,41 +226,135 @@ margin: auto;
  padding-bottom: 35px;
  font-size:14px ;
 }
-#contact{
-    height: 112vh;
+
+/* contact me */
+.form{
+    background-color: rgba(245, 245, 245, 0.747);
+    color: #000;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 50%; 
+    padding: 12px;
+    border: 0px solid rgba(245, 245, 245, 0.747); 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    background-color: transparent;
+    color:#000000;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
+  }
+  
+  #fname.form{
+    width: 100%;
+    border-radius: 20px;
 }
-#contact-sec{
-    width:80%;
-    text-align: center;
-    position: relative;
-    top:190px;
-    left: 8em;
-    line-height: 12px;
+#email.form{
+    width: 100%;
+    border-radius: 20px;
 }
-#contact-sec h2{
-    padding-bottom: 35px;
+#subject.form{
+    width: 100%;
+    border-radius: 10px;
 }
-#info{
-    width: 95%;
-    font-size: 13px;
-    padding: 20px;
-    background: rgb(184, 179, 179);
+#submit{
+    border-radius: 10px; 
 
 }
+
+#contact-footer{
+    margin-top: 0px;
+    text-align: center;
+    padding: 1px;
+    height: 4.5vh;
+    background: rgb(201, 132, 5);
+    font-size: 13px;
+    color: whitesmoke;
+}
+ 
+  
+  input[type="submit"]:hover {
+    background-color: rgb(8, 8, 8);
+    color: white;
+  }
+.over-lay{
+    background-color: rgba(0, 0, 0, 0.719);
+    height: 100vh;
+}
+  .contact-container {
+      margin: auto;
+      border-radius: 30px;
+    margin-top:20px;
+    text-align: center;
+   width: 30%;
+   height: 30rem;
+    background-color: rgba(243, 241, 241, 0.616);
+    padding: 30px;
+  }
+  #donate{
+      padding:10px;
+      margin-left:610px;
+  }
+  .contact-container p{
+      color: #000000;
+  }
+  #contact h1{
+    padding: 0;
+  }
+  #contact p{
+    padding-bottom: 30px;
+   font-size: medium;
+
+  }
+  
+
+  
+  #contact {
+  background-image: url("contact.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+   color: #000;
+  height:100vh;
+  letter-spacing: 2px;
+  font-family:'Lora',Arial, Helvetica, sans-serif ;
+
+  
+  }
+  
+  .icon {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border-radius: 5px;
+    padding: 20px;
+
+  
+    justify-content: center;
+  }
+  .iconx {
+ padding-right: 40px;
+    width: 10px;
+    color: rgb(255, 255, 255);
+  }
+  .iconx:hover {
+    color: rgb(212, 133, 5);
+  }
+
 img{
     width: 20px;
 }
-#last{
-    display:flex;
-    flex-direction: column;
-    text-align: center;
-    justify-self: center;
-    position: relative;
-    top: 235px;
-    width: 35%;
-    margin-left: 30em;
-    
-}
+
 .acc{
   padding-top: 20px;
     position: relative;
@@ -268,13 +364,69 @@ img{
     margin-top: 355px;
     text-align: center;
     padding: 10px;
-    height: 15vh;
+    height: 5vh;
     background: rgb(201, 132, 5);
     font-size: 13px;
     color: whitesmoke;
 }
 
 #prog-footer{
+    margin-top: 220px;
+    text-align: center;
+    padding: 10px;
+    height: 4.5vh;
+    background: rgb(201, 132, 5);
+    font-size: 13px;
+    color: whitesmoke;
+}
+#contact-footer{
+    margin-top: 0px;
+    text-align: center;
+    padding: 10px;
+    height: 4.5vh;
+    background: rgb(201, 132, 5);
+    font-size: 13px;
+    color: whitesmoke;
+}
+/* gallery */
+
+#gallery{
+    height: 100vh;
+    overflow-y: auto;
+}
+#body-gallery{
+    background-image: url('xxx3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.overlay-gallery{
+    height: 110vh;
+    background-color: rgba(0, 0, 0, 0.76);
+}
+.row {
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+ 
+
+
+#gallery-footer{
     margin-top: 220px;
     text-align: center;
     padding: 10px;
@@ -285,25 +437,35 @@ img{
 }
 
 
-
-
+.cc{
+    color:rgb(248, 241, 241);
+    margin-left: 290px;
+    padding-bottom: 5px;
+    font-size: 12px;
+}
+.dd{
+    color: blanchedalmond;
+    margin-left: 530px;
+    font-size: 12px;
+}
 @media (max-width: 1200px){
     body{
         overflow: scroll;
         overflow-x: hidden;
     }
+  
     
     header{
         width: 100%;
     }
     
-    #last{
+    /* #last{
         display:flex;
         position: relative;
         top: 110px;
       
-    }
-    #about h1{
+    } */
+    /* #about h1{
         padding-bottom: 10px;
         position: relative;
         top: -290px;
@@ -322,20 +484,27 @@ img{
         top: -300px;
 
     }
-  
+   */
 
 
     .btn{
         display: flex;
         position: relative;
-        top:280px;
-        left: 60px;
+        top:320px;
+        width: 80%;
+        font-size: 14px;
+     
     }
     #donate{
         width: 100px;
+     
     }
  #contact{
      font-size: 12.5px;
+     height: 150vh;
+ }
+ .over-lay{
+     height: 150vh;
  }
  #contact h2{
     font-size: 13.5px;
@@ -356,18 +525,7 @@ img{
 }
 
 
-  
-    
-   
-     #info{
-        width: 100%;
-        font-size: 12px;
-       
-        padding: 10px;
-        background: rgba(235, 229, 229, 0.281);
-    
-    }
-    
+
     
     
     #last{
@@ -381,19 +539,20 @@ img{
         
     }
    
-    
-
+/*     
+header{
+    display: none;
+} */
 #btn{
  
-    background:rgba(0, 0, 0, 0.507);
-    border: white 2px solid;
+    border: white 1px solid;
     width: 30%;
     padding: 10px;
 }
 #btn2{
     
-    background:rgba(0, 0, 0, 0.507);
-    border: white 2px solid;
+   
+    border: white 1px solid;
     width: 20%;
     padding: 10px;
     margin-left: 10px;
@@ -417,26 +576,33 @@ img{
         font-size: 14px;
         padding: 5px;
     }
-    #showcase{
-        min-height: 100vh;
-        background: url('xxx2.jpg') no-repeat -660px -400px;
+
+     #showcase{
+        height: 100vh;
+        background: url('xxx2.jpg') no-repeat ;
+        background-size: 100% 100%;
         text-align: center;
         width: 100%;
         overflow-x: hidden;
         
     }
-    .preview{
-        background: rgba(255, 255, 255, 0.39);
-        width: 70%;
-        padding: 10px;
-        position: relative;
-        bottom: 100px;
-        font-size: 12px;
-     
-    }
-    #preview{
+    #showcase h1{
       
-        background: none;
+        text-align: center;
+        top:250px;
+        width: 95%;
+        font-size: 30px;
+        
+    }
+    #showcase p{
+    text-align: end;
+        top:250px;
+        width: 70%;
+        font-size: 12px;
+        
+    }
+    .overlay{
+        background-color: #0000008a;
     }
     .pre-content{
         display: none;
@@ -455,42 +621,192 @@ img{
   }
     #box{
         display: flex;
-        flex-direction: column;
+        flex-direction:row;
         margin-top: 5px;
         font-size: 12px;
     
     }
-    #focus{
+    /* #focus{
         flex:1;
-    }
-    #mission{
+    } */
+    /* #mission{
         flex:1;
         background: rgb(184, 179, 179);
         padding: 2px;
-    }
+    } */
     #box h2{
         padding: 7px;
         font-weight: 500;
-    }
-    #programme-sec{
-        width:85%;
-        text-align: center;
-        position: relative;
-        top:10px;
-        left: 15px;
-        font-size: 12px;
-        overflow-x: hidden;
     }
     
     .prog{
         padding: 0px;
     }
     .prog h3{
-        padding: 20px;
+        padding: 30px;
     }
 
 
 }
 
 
+@media (max-width: 500px){
+    #box{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+        font-size: 12px;
+    }
+  /* .navbar{
+      display: ;
+  } */
+   
+ #focus{
+        width: 100%;
+    } 
+     #mission{
+      width: 100%;
+      padding-bottom: 30px;
+     padding-right: 0;
+    } 
+    #about p{
+        margin: auto;
+       width: 90%;
 
+      }
+      .paragraph{
+        text-align: center;
+        font-size: 15px;
+        
+        top: 150px;
+    margin: auto;
+    }
+
+    #about-footer{
+        width: 100%;
+       margin-top: 190px;
+        text-align: center;
+        padding: 10px;
+        height: 5vh;
+        background: rgb(201, 132, 5);
+        color: whitesmoke;
+    }
+    
+    #prog-footer{
+        margin-top: 220px;
+        text-align: center;
+        padding: 10px;
+        height: 5vh;
+        background: rgb(201, 132, 5);
+        font-size: 13px;
+        color: whitesmoke;
+    }
+    
+    #programme-sec{
+    
+        text-align: center;
+        width:85%;
+        position: relative;
+        top:150px;
+      margin: auto;
+      font-size: 15px;
+    }
+    
+    .prog h1{
+        padding-bottom: 10px;
+    }
+    .contact-container {
+        margin: auto;
+      margin-top:80px;
+      text-align: center;
+     width: 35%;
+      background-color: rgba(243, 241, 241, 0.616);
+      padding: 20px;
+      
+   
+    }  .contact-container {
+        margin: auto;
+      margin-top:80px;
+      text-align: center;
+     width: 35%;
+      background-color: rgba(243, 241, 241, 0.616);
+      padding: 20px;
+      
+   
+    }  .contact-container {
+        margin: auto;
+      margin-top:80px;
+      text-align: center;
+     width: 35%;
+      background-color: rgba(243, 241, 241, 0.616);
+      padding: 20px;
+      
+   
+    }  .contact-container {
+        margin: auto;
+      margin-top:80px;
+      text-align: center;
+     width: 35%;
+      background-color: rgba(243, 241, 241, 0.616);
+      padding: 20px;
+      
+   
+    }  .contact-container {
+        margin: auto;
+      margin-top:80px;
+      text-align: center;
+     width: 35%;
+      background-color: rgba(243, 241, 241, 0.616);
+      padding: 20px;
+      
+   
+    }  .contact-container {
+        margin: auto;
+   
+      margin-top:80px;
+      text-align: center;
+     width: 83%;
+     height: 70%;
+      background-color: rgba(243, 241, 241, 0.616);
+      padding: 20px;
+      
+   
+    }
+    #fname.form{
+        width: 80%;
+    }
+    #email.form{
+        width: 80%;
+    }
+    #subject.form{
+        width: 80%;
+    }
+
+    #contact-footer{
+        margin-top: 0px;
+        text-align: center;
+        padding: 1px;
+        height: 4.5vh;
+        background: rgb(201, 132, 5);
+        font-size: 13px;
+        color: whitesmoke;
+    }
+     .cc{
+         padding-top:20px;
+         padding-bottom: 10px;
+         width: 90%;
+         font-weight: bolder;
+         text-align: center;
+         margin: auto;
+     }
+
+     .dd{
+         width: 100%;
+         text-align: center;
+         margin: auto;
+     }
+     #donate{
+         margin-left: 110px;
+         width: 150px;
+     }
+}
