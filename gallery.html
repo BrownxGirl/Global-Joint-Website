@@ -12,12 +12,21 @@
 ">
     <meta name="keywords" content="Gallery,non-profit, Africa,Charity, Impowering, NGO,Rural development,African Development, Change, GJCBC, human capital investmet, Global Joint,grassroot communities">
     <meta name="author" content="Nomanna Mavata">
-	<title>Global Joint Council Of Business Communities</title>
+	<title>Gallery | GJCBC</title>
 	<link rel="stylesheet" type="text/css" href= "index.css">
 </head>
 <body id="body-gallery">
-  <header class="about-header">
-    <nav>
+  <header class="about-header" style="background-color: transparent;">
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="programme.html">Programmes</a>
+      <a href="gallery.html"> Gallery</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <span style="display: inline; color: white; margin: 20px;" onclick="openNav()"><i class="fa fa-bars fa-lg bar" aria-hidden="true">&#9776;</i></span>  
+    <nav style="display: none;">
 <div style="height:80px"; id="header-img"><img id="image" src="global clear logo.png"></div>
         <ul>
             <li><a href="contact.html">Contact</a></li> 
@@ -92,7 +101,17 @@
 
   </div> -->
 
-<footer id="gallery-footer"> all rights reserved by GJCBC &copy; 2019</footer>
-<script type="text/javascript" src="main.js"></script>
+<footer id="gallery-footer"> all rights reserved by GJCBC &copy; 2017 - 2020</footer>
+<script>
+       
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+  
+          </script>
 </body>
 </html>

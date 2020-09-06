@@ -10,6 +10,16 @@
 </head>
 <body>
 <header class="about-header">
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="programme.html">Programmes</a>
+        <a href="gallery.html"> Gallery</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <span onclick="openNav()"><i class="fa fa-bars fa-lg bar" aria-hidden="true">&#9776;</i></span>      
+
 
         <nav class="navbar">
 <div id="header-img"><img id="image" src="global clear logo.png"></div>
@@ -50,10 +60,8 @@
 
             </div>
             <br>
-      
-          <div class="cc">GJCBC IS A REGISTERED SOUTH AFRICAN NON-PROFIT WORKING ON DEVELOPING RURAL COMMUNITIES  </div>
+            <p class="cc">GJCBC is a registered South African non-profit dealing with developmenmt with rural communities, you can support the work done by GJCBC through a donations</p>
              
-          <div class="dd"><b>HELP US DO MORE THROUGH DONATING </b></div>
           <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
             <input type="hidden" name="cmd" value="_s-xclick" />
             <input type="hidden" name="hosted_button_id" value="QZ3BFUJFVH95C" />
@@ -71,6 +79,16 @@
                
                 <footer id="contact-footer">Global Joint Council Of Business Communities &copy;2019 Created by Nomanna </footer>
 </section>
-
+<script>
+       
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    
+            </script>
 </body>
 </html>

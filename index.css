@@ -11,10 +11,10 @@ a{
     text-decoration: none;
     color: white;
 }
-li:hover{
+a:hover{
     text-decoration: none;
-    color:black;
-    background: rgba(240, 233, 233, 0.233);
+    color:rgba(128, 128, 128, 0.548);
+   
  
 }
 
@@ -28,14 +28,11 @@ background: rgba(0, 0, 0, 0.514);
     background: rgba(0, 0, 0, 0.514);
     }
     
-    
-
-
-
 ul{
  
     list-style: none;
     margin-right: 30px;
+    font-size: 18px;
    
 }
 
@@ -82,54 +79,55 @@ header li{
     bottom: 55px;
  }
 
-#index-nav{
-bottom:610px;
-}
 
 #showcase{
-    min-height: 100vh;
+    height: 100vh;
     background: url('xxx3.jpg') no-repeat 0px -422px;
     background-size: cover;
     text-align: center;
     
 }
 .overlay{
-    background-color: #0000009b;
+    background-color: #000000af;
     height: 100vh;
+}
+
+#showcase img{
+    width:220px;
+  
+    margin-top: 11rem;
 }
 #showcase h1{
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 100;
+    padding-top: 30px;
     word-spacing: 3px;
     position: relative;
-    top: 300px;
+    top: 3px;
   color: #ffffff;
   font-size: 45px;
-    width: 40%;
+    width: 80%;
    margin: auto;
  
 }
 #showcase p{
     text-align: center;
     font-weight: 100;
+    font-size: 20px;
     word-spacing: 3px;
-    position: relative;
-    top: 315px;
   color: #ffffff;
-  padding: 10px;
+  padding: 33px;
     width: 40%;
    margin: auto;
  
 }
 
 
-
-
-
 #btn{
     background:rgba(0, 0, 0, 0);
     border: rgb(248, 246, 246) 1px solid;
-    width: 10%;
+    width: 9%;
     padding: 10px;
    
 
@@ -138,7 +136,7 @@ bottom:610px;
     
     background:rgba(0, 0, 0, 0);
     border: rgb(248, 246, 246) 1px solid;
-    width: 10%;
+    width:9%;
     padding: 10px;
     margin-left: 60px;
     
@@ -147,7 +145,7 @@ bottom:610px;
     display: flex;
     position: relative;
     margin: auto;
-    top:350px;
+    top:10px;
      justify-content: center;
      
 }
@@ -158,6 +156,9 @@ form{
 }
 #donate{
     width: 150px;
+    margin-left: 50rem;
+    
+    
 }
 
 
@@ -178,13 +179,18 @@ section{
 }
 #about h1{
     padding-bottom: 10px;
+   
+   
+}
+#about h2{
+    font-weight: 100 ;
 }
 .paragraph{
     text-align: center;
-    font-size: 15px;
+    font-size: 18px;
     width:60%;
     position: relative;
-    top: 200px;
+    top: 190px;
 margin: auto;
 }
 .paragraph p{
@@ -192,13 +198,14 @@ margin: auto;
 }
 #box{
     display: flex;
-    margin-top: 40px;
+    margin-top:70px;
     padding: 20px;
 
 }
 #mission{
     width: 50%;
     padding-right: 90px;
+   
   
 }
 
@@ -209,7 +216,7 @@ margin: auto;
     position: relative;
     top:150px;
   margin: auto;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .prog{
@@ -219,12 +226,12 @@ margin: auto;
 
 .prog h1{
     padding-bottom: 50px;
- font-weight: 100 ;
+
    }
 
-.prog h3{
+.prog h2{
  padding-bottom: 35px;
- font-size:14px ;
+font-weight: 100;
 }
 
 /* contact me */
@@ -254,17 +261,19 @@ margin: auto;
     font-weight: bold;
     font-size: medium;
   }
-  
+
   #fname.form{
-    width: 100%;
+    width: 80%;
+    height: 50px;
     border-radius: 20px;
 }
 #email.form{
-    width: 100%;
+    width: 80%;
+    height: 50px;
     border-radius: 20px;
 }
 #subject.form{
-    width: 100%;
+    width: 80%;
     border-radius: 10px;
 }
 #submit{
@@ -294,17 +303,14 @@ margin: auto;
   .contact-container {
       margin: auto;
       border-radius: 30px;
-    margin-top:20px;
+    margin-top:30px;
     text-align: center;
    width: 30%;
-   height: 30rem;
+   height: 35rem;
     background-color: rgba(243, 241, 241, 0.616);
     padding: 30px;
   }
-  #donate{
-      padding:10px;
-      margin-left:610px;
-  }
+
   .contact-container p{
       color: #000000;
   }
@@ -361,7 +367,7 @@ img{
     font-size: 14px;
 }
 #about-footer{
-    margin-top: 355px;
+    margin-top: 488px;
     text-align: center;
     padding: 10px;
     height: 5vh;
@@ -371,7 +377,7 @@ img{
 }
 
 #prog-footer{
-    margin-top: 220px;
+    margin-top: 355px;
     text-align: center;
     padding: 10px;
     height: 4.5vh;
@@ -405,7 +411,7 @@ img{
     background-color: rgba(0, 0, 0, 0.76);
 }
 .row {
-    margin-top: 15%;
+    margin-top: 5%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -436,29 +442,103 @@ img{
     color: whitesmoke;
 }
 
-
 .cc{
-    color:rgb(248, 241, 241);
-    margin-left: 290px;
-    padding-bottom: 5px;
+    color:rgba(226, 216, 216, 0.808);
+    padding-bottom: 0px;
     font-size: 12px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
 }
 .dd{
     color: blanchedalmond;
-    margin-left: 530px;
+    margin-left: 730px;
     font-size: 12px;
-}
+} 
+
+
+/* The side navigation menu */
+           
+              
+span {
+    display:none;
+  }
+  .sidenav {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    background: rgb(201, 132, 5);
+    overflow-x: hidden;
+    padding-top: 60px; 
+    transition: 0.5s; 
+     letter-spacing: 2px;
+  font-family:'Lora',Arial, Helvetica, sans-serif ;
+
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+   .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+   span{
+    margin-top: 20px;
+   }
+  
+  
+
+
+
+
 @media (max-width: 1200px){
     body{
         overflow: scroll;
         overflow-x: hidden;
     }
   
-    
+/* 
+showcase */
+
+
+#showcase img{
+    width:130px;
+  
+    margin-top: 2rem;
+}
+
+ 
     header{
         width: 100%;
     }
-    
+    header span{
+        color: cornsilk;
+        margin-top:-4rem;
+    }
+    #index-nav .sidenav{
+     margin-top:-5rem
+    }
+    #index-nav ul{
+   display: none;
+    }
+
     /* #last{
         display:flex;
         position: relative;
@@ -490,7 +570,7 @@ img{
     .btn{
         display: flex;
         position: relative;
-        top:320px;
+        top:-10px;
         width: 80%;
         font-size: 14px;
      
@@ -501,48 +581,25 @@ img{
     }
  #contact{
      font-size: 12.5px;
-     height: 150vh;
+     height: 125vh;
  }
  .over-lay{
-     height: 150vh;
+     height: 125vh;
  }
  #contact h2{
     font-size: 13.5px;
     padding: 8px;
   
 }
-    #contact-sec{
-        width:80%;
-        text-align: center;
-        position: relative;
-        top:70px;
-        left: 30px;
-        line-height: 10px;
-    }
-.acc{
-    left:1em;
-    padding: 0;
+
+
+
+
+
+    
+.about-header{
+    background-color: transparent;
 }
-
-
-
-    
-    
-    #last{
-        width:80%;
-        text-align: center;
-        position: relative;
-        top:6em;
-        right: 28em;
-
- 
-        
-    }
-   
-/*     
-header{
-    display: none;
-} */
 #btn{
  
     border: white 1px solid;
@@ -589,20 +646,20 @@ header{
     #showcase h1{
       
         text-align: center;
-        top:250px;
-        width: 95%;
-        font-size: 30px;
+        top:40px;
+        width: 100%;
+        font-size: 23px;
         
     }
     #showcase p{
-    text-align: end;
-        top:250px;
-        width: 70%;
+    text-align:start;
+     padding: 50px;
+        width: 100%;
         font-size: 12px;
         
     }
     .overlay{
-        background-color: #0000008a;
+        background-color: #000000a6;
     }
     .pre-content{
         display: none;
@@ -616,16 +673,29 @@ header{
         left: 12px;
     }
   #about p{
-    font-size: 13px;
+    font-size: 16px;
     line-height: 20px;
+  }
+  #about h2{
+    font-size: 18px;
+  }
+  #about p{
+    font-size: 16px;
+  }
+
+  #mission ul{
+      font-size: 15px;
   }
     #box{
         display: flex;
         flex-direction:row;
         margin-top: 5px;
         font-size: 12px;
-    
     }
+        #focus ul{
+            font-size: 15px;
+
+        }
     /* #focus{
         flex:1;
     } */
@@ -642,9 +712,16 @@ header{
     .prog{
         padding: 0px;
     }
-    .prog h3{
+    .prog h2{
         padding: 30px;
+        font-size: 18px;
     }
+    .column {
+        flex: 25%;
+        max-width: 30%;
+    
+      }
+    
 
 
 }
@@ -657,10 +734,11 @@ header{
         margin-top: 5px;
         font-size: 12px;
     }
-  /* .navbar{
-      display: ;
-  } */
-   
+  .navbar{
+      display:none ;
+  }
+
+  
  #focus{
         width: 100%;
     } 
@@ -678,7 +756,7 @@ header{
         text-align: center;
         font-size: 15px;
         
-        top: 150px;
+        top: 70px;
     margin: auto;
     }
 
@@ -707,63 +785,22 @@ header{
         text-align: center;
         width:85%;
         position: relative;
-        top:150px;
+        top:50px;
       margin: auto;
       font-size: 15px;
     }
     
     .prog h1{
         padding-bottom: 10px;
+
     }
-    .contact-container {
-        margin: auto;
-      margin-top:80px;
-      text-align: center;
-     width: 35%;
-      background-color: rgba(243, 241, 241, 0.616);
-      padding: 20px;
-      
+
    
-    }  .contact-container {
-        margin: auto;
-      margin-top:80px;
-      text-align: center;
-     width: 35%;
-      background-color: rgba(243, 241, 241, 0.616);
-      padding: 20px;
-      
-   
-    }  .contact-container {
-        margin: auto;
-      margin-top:80px;
-      text-align: center;
-     width: 35%;
-      background-color: rgba(243, 241, 241, 0.616);
-      padding: 20px;
-      
-   
-    }  .contact-container {
-        margin: auto;
-      margin-top:80px;
-      text-align: center;
-     width: 35%;
-      background-color: rgba(243, 241, 241, 0.616);
-      padding: 20px;
-      
-   
-    }  .contact-container {
-        margin: auto;
-      margin-top:80px;
-      text-align: center;
-     width: 35%;
-      background-color: rgba(243, 241, 241, 0.616);
-      padding: 20px;
-      
-   
-    }  .contact-container {
+       
+     .contact-container {
         margin: auto;
    
-      margin-top:80px;
+      margin-top:0px;
       text-align: center;
      width: 83%;
      height: 70%;
@@ -808,5 +845,96 @@ header{
      #donate{
          margin-left: 110px;
          width: 150px;
+        
      }
+     /* sidebar */
+     .sidenav {
+        padding-top: 15px;
+      }
+      .sidenav a {
+        font-size: 18px;
+      }
+    
+      span {
+        display: flex;
+        position: fixed;
+        padding-top: 0px;
+        padding-left: 8px;
+        color: black;
+    
+      }
+      .iconx {
+        padding-right: 15px;
+         }
+
+         header span{
+            color: rgb(12, 12, 12);
+            margin-top:2rem;
+        }
+    #contact p{
+        padding: 10px;
+    }
 }
+
+
+@media(max-width: 360px){
+
+    #contact{
+        /* font-size: 12.5px; */
+        height: 145vh;
+    }
+    .over-lay{
+        height: 145vh;
+    }
+
+    #donate{
+        margin-left: 71px;
+        width: 150px;
+    }
+
+    #contact-footer{
+        margin-top: 0px;
+        text-align: center;
+        padding: 1px;
+        height: 7vh;
+        background: rgb(201, 132, 5);
+        font-size: 13px;
+        color: whitesmoke;
+    }
+    .iconx {
+        padding-right: 10px;
+         }
+       
+
+}
+
+@media(max-width: 320px){
+    #showcase p{
+  display: none;}
+
+  .btn{
+      margin-top: 80px;
+  }
+  #contact p{
+      padding: 0px;
+  }
+}
+/* 
+@media(min-width: 414px){
+   #showcase img{
+       margin-top: 4rem;
+       width: 160px;
+   }
+    #showcase h1{
+  width: 80%;
+  text-align: center;
+  margin-top: 0rem;
+    }
+    #showcase p{
+        width: 100%;
+        text-align: start;
+        margin-left: 25px;
+          }
+
+ 
+} */
