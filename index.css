@@ -18,7 +18,6 @@ a:hover{
  
 }
 
-
 #btn:hover{
 color: white; 
 background: rgba(0, 0, 0, 0.514);
@@ -149,14 +148,15 @@ header li{
      justify-content: center;
      
 }
-form{
-
-    padding: 10px;
-    color: white;
+.box{
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+   padding: 0px;
 }
 #donate{
     width: 150px;
-    margin-left: 50rem;
+    /* margin-left: 50rem; */
     
     
 }
@@ -198,15 +198,17 @@ margin: auto;
 }
 #box{
     display: flex;
-    margin-top:70px;
+    margin-top:50px;
     padding: 20px;
 
 }
 #mission{
-    width: 50%;
+    width: 100%;
     padding-right: 90px;
-   
-  
+}
+
+#focus{
+    width:100%
 }
 
 #programme-sec{
@@ -318,7 +320,7 @@ font-weight: 100;
     padding: 0;
   }
   #contact p{
-    padding-bottom: 30px;
+    padding-bottom: 8px;
    font-size: medium;
 
   }
@@ -343,13 +345,14 @@ font-weight: 100;
     display: grid;
     grid-template-columns: auto auto auto auto;
     border-radius: 5px;
-    padding: 20px;
+    padding: 0px;
 
   
     justify-content: center;
   }
   .iconx {
- padding-right: 40px;
+      padding-top: 10px;
+ padding-right: 25px;
     width: 10px;
     color: rgb(255, 255, 255);
   }
@@ -374,6 +377,7 @@ img{
     background: rgb(201, 132, 5);
     font-size: 13px;
     color: whitesmoke;
+    color: #;
 }
 
 #prog-footer{
@@ -382,6 +386,7 @@ img{
     padding: 10px;
     height: 4.5vh;
     background: rgb(201, 132, 5);
+
     font-size: 13px;
     color: whitesmoke;
 }
@@ -391,6 +396,7 @@ img{
     padding: 10px;
     height: 4.5vh;
     background: rgb(201, 132, 5);
+
     font-size: 13px;
     color: whitesmoke;
 }
@@ -450,11 +456,6 @@ img{
     width: 50%;
     margin: auto;
 }
-.dd{
-    color: blanchedalmond;
-    margin-left: 730px;
-    font-size: 12px;
-} 
 
 
 /* The side navigation menu */
@@ -504,7 +505,12 @@ span {
    }
   
   
-
+footer p{
+  
+   padding: .5px;
+    margin: auto;
+    color: rgb(252, 247, 247);
+}
 
 
 
@@ -512,6 +518,7 @@ span {
     body{
         overflow: scroll;
         overflow-x: hidden;
+      
     }
   
 /* 
@@ -765,7 +772,7 @@ showcase */
        margin-top: 190px;
         text-align: center;
         padding: 10px;
-        height: 5vh;
+        height: 8vh;
         background: rgb(201, 132, 5);
         color: whitesmoke;
     }
@@ -843,7 +850,7 @@ showcase */
          margin: auto;
      }
      #donate{
-         margin-left: 110px;
+       
          width: 150px;
         
      }
@@ -872,7 +879,7 @@ showcase */
             margin-top:2rem;
         }
     #contact p{
-        padding: 10px;
+        padding: 0px;
     }
 }
 
@@ -919,22 +926,15 @@ showcase */
       padding: 0px;
   }
 }
-/* 
-@media(min-width: 414px){
-   #showcase img{
-       margin-top: 4rem;
-       width: 160px;
-   }
-    #showcase h1{
-  width: 80%;
-  text-align: center;
-  margin-top: 0rem;
-    }
-    #showcase p{
-        width: 100%;
-        text-align: start;
-        margin-left: 25px;
-          }
-
  
-} */
+@media(min-width: 1200px){
+.over-lay{
+    height: 113vh;
+}
+#contact-footer{
+    height: 3.5vh;
+}
+#contact{
+    height: 113vh;
+}
+} 
