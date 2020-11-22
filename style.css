@@ -38,6 +38,10 @@ header .logo{
     flex:2;
     padding-top: 20px;
 }
+.logo img{
+    width: 135px;
+}
+
 
 header ul li{
     font-family: 'Karla', sans-serif;
@@ -62,6 +66,8 @@ HOME PAGE */
    background-position: center;
     background-size: cover;
     height: 100vh;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .content{
@@ -101,6 +107,7 @@ height: 60vh;
 .about-header {
     display: flex;
     justify-content: flex-end;
+    overflow-x: hidden;
    
 }
 
@@ -518,3 +525,130 @@ footer a{
     font-size: 10px;
     padding: 10px;
 }
+
+
+/* sideNav */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.774);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: orangered;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  
+  /* @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  } */
+
+
+
+  @media screen and (max-width: 420px) {
+
+header ul{
+    visibility: hidden;
+}
+
+span{
+margin-left: -80rem;
+padding: 2rem;
+color: rgb(0, 0, 0);
+font-size:30px;
+cursor:pointer;
+
+}
+
+/* home */
+.content h1{
+    font-size: 32px;
+
+}
+.logo img{
+    width: 90px;
+}
+
+.content p{
+    font-size: 14px;
+    text-align: center;
+    width: 75%;
+}
+
+
+/* about */
+.about{
+width: 100%;
+overflow-y: hidden;
+}
+.about-image{
+    width: 70%;
+}
+.about-content{
+    padding-top: 3rem;
+    width: 80%
+}
+.about-content p{
+    width: 100%;
+  margin: auto;
+}
+.focus{
+    flex-direction: column;
+}
+
+.focus .focus-paragraph{
+    width: 100%;
+}
+
+.focus .mission-paragraph{
+    width: 100%;
+}
+/* 
+team */
+
+.team{
+    flex-direction: column;
+    visibility: hidden;
+}
+
+.team-box{
+    width: 100%;
+    border-right: none;
+}
+
+.team-box p{
+    width: 60%;
+}
+
+footer{
+    visibility: hidden;
+}
+  }
+
+
