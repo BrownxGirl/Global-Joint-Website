@@ -3,7 +3,7 @@
     margin: 0;
 }
 span{
-    visibility: hidden;
+    color:transparent;
 }
 body{
     font-family: 'Karla', sans-serif;
@@ -576,13 +576,17 @@ footer a{
 
 
   @media screen and (max-width: 420px) {
-h1{
+
+
+    h1{
     font-size: 28px;
 }
 header ul{
     visibility: hidden;
 }
-
+.home-nav{
+    color: white;
+}
 span{
 margin-left: -80rem;
 padding: 2rem;
