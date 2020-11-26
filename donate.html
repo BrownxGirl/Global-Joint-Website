@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body style="height: 0vh; padding-bottom: 30px;">
+<body style="height: 100vh; padding-bottom: 30px;">
    
 
       <header class="about-header"> 
@@ -19,17 +19,27 @@
           <a href="donate.html"><li>DONATE</li></a> 
           <a href="contact.html"><li>CONTACT</li></a> 
          </ul>
+
+         <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">HOME</a> 
+            <a href="about.html">ABOUT</a> 
+            <a href="programmes.html">PROGRAMMES</a> 
+            <a href="donate.html">DONATE</a> 
+            <a href="contact.html">CONTACT</a> 
+        </div>
+        <span onclick="openNav()">&#9776;</span>
        </header> 
 
            <h1>Help Us Make A Greater Impact </h1>
             <div class="photos"> 
-            <div class="image4"> <div class="overlay"></div> </div> 
+            <div class="image4"> <div class="overlay-donate"></div> </div> 
            </div>
           
            
             <div class="donate-page">
                 <div class="donate">
-                    <p>GJCBC is a registered non-profit working hard to create and sustain development in rurual communities, 
+                    <p>GJCBC is a registered non-profit (NPC no: 2018/004882/08) working hard to create and sustain development in rurual communities, 
                      you can support the work done through donating or/and sharing our work with others around you.</p>
                   </div> 
                   <div class="donate-button">
@@ -43,10 +53,10 @@
                        <h4>OR</h4>
                        <p>Make a direct deposit / EFT into the organisation's account</p>
                        <ul class="acc"> 
-                        <li> Account Name:Global Joint Council of Business Communities </li> 
+                        <li> Account Name: Global Joint Council of Business Communities </li> 
                         <li> Account number: 62751213910  </li>
-                        <li> Branch code :221626  </li> 
-                        <li> Swift Code :FIRNZAJJ  </li>
+                        <li> Branch code: 221626  </li> 
+                        <li> Swift Code: FIRNZAJJ  </li>
                         <li> Bank Physical Address: 47 Crompton Street , Pinetown , KwaZulu Natal, RSA </li>
        
                        </ul>
@@ -67,38 +77,40 @@
 
   
 
-<footer>
+           <footer>
     
-    <div class="inner-footer">
-
-        <div class="footer">
-            <div class="img/logo"><img style="width: 50px;" src="logo.png" alt=""></div>
-            <h5>About Us</h5>
-            <p>  Global Joint Council Of Business Communities is a registered South African Non-Profit 
-                which focuses on sustainable rural development.</p>
-        </div>
-        <div class="footer">
-            <h5>Explore Our Page</h5>
-            <ul>
-                <a href="index.html"><li>HOME</li></a> 
-               <a href="about.html"><li>ABOUT</li></a> 
-               <a href="programmes.html"><li>PROGRAMMES</li></a> 
-               <a href="donate.html"><li>DONATE</li></a> 
-               <a href="contact.html"><li>CONTACT</li></a> 
-              </ul>
-        </div>
-        <div class="footer">
-            <h5>Contact Us</h5>
-            <p>info@globaljoint.org</p>
-        </div>
+            <div class="inner-footer">
+        
+                <div class="footer">
+                    <div class="img/logo"><img style="width: 50px;" src="logo.png" alt=""></div>
+                    <h5 >About Us</h5>
+                    <p class="aboutUs">  Global Joint Council Of Business Communities is a registered South African Non-Profit (NPC no: 2018/004882/08)
+                        which focuses on sustainable rural development.</p>
+                </div>
+                <div class="footer">
+                    <h5>Explore Our Page</h5>
+                    <ul>
+                        <a href="index.html"><li>HOME</li></a> 
+                       <a href="about.html"><li>ABOUT</li></a> 
+                       <a href="programmes.html"><li>PROGRAMMES</li></a> 
+                       <a href="donate.html"><li>DONATE</li></a> 
+                       <a href="contact.html"><li>CONTACT</li></a> 
+                      </ul>
+                </div>
+                <div class="footer">
+                    <h5>Contact Us</h5>
+                    <p>info@globaljoint.org</p>
         <div class="footer copy">
-            <p> &copy; 2019-2020 Global Joint Council Of Business Communities ...v5</p>
-            <a class="designer" style="color: rgb(128, 121, 121);" target="_blank"href = "https://nomanna.netlify.app/">Design and Developed by Nomanna</a>
-        </div>
-
-    </div>
-
-</footer>
-  
+                    <p> &copy; 2019-2020 Global Joint Council Of Business Communities ...v5</p>
+                    <a class="designer" style="color: rgb(128, 121, 121);" target="_blank"href = "https://nomanna.netlify.app/">Design and Developed by Nomanna</a>
+                </div>
+        
+                </div>
+                
+        
+            </div>
+        
+        </footer>
+<script src="nav.js"></script>
 </body>
 </html>

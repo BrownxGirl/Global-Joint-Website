@@ -183,6 +183,7 @@ padding: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 20px;
     
 }
 .focus h3{
@@ -193,7 +194,7 @@ font-weight: 600;
       display: flex;
       flex-direction: column;
       align-items: center;
- 
+      padding-bottom: 20px;
       
   }
 .focus  img{
@@ -486,7 +487,7 @@ Footer */
     display: flex;
     background-color: black;
     position: absolute;
-     height: 150px;
+     height: 170px;
     width: 100%;
     color: rgb(200, 198, 198);
     text-align: center;
@@ -572,7 +573,9 @@ footer a{
 
 
   @media screen and (max-width: 420px) {
-
+h1{
+    font-size: 28px;
+}
 header ul{
     visibility: hidden;
 }
@@ -602,7 +605,7 @@ cursor:pointer;
 }
 
 
-/* about */
+/* ABOUT */
 .about{
 width: 100%;
 overflow-y: hidden;
@@ -617,6 +620,11 @@ overflow-y: hidden;
 .about-content p{
     width: 100%;
   margin: auto;
+  font-size: 13px;
+}
+.about-content li{
+    font-size: 13px;
+
 }
 .focus{
     flex-direction: column;
@@ -624,15 +632,17 @@ overflow-y: hidden;
 
 .focus .focus-paragraph{
     width: 100%;
+    padding-bottom: 25px;
 }
 
 .focus .mission-paragraph{
     width: 100%;
+    padding-bottom: 25px;
 }
 /* 
 team */
 
-.team{
+/* .team{
     flex-direction: column;
     visibility: hidden;
 }
@@ -644,11 +654,193 @@ team */
 
 .team-box p{
     width: 60%;
+} */
+
+
+/* PROGRAMMES */
+
+.overlay{
+    height: 155px;
 }
 
-footer{
-    visibility: hidden;
+.photos .image1{
+
+    width:30% ;
+    height: 155px;
 }
+.photos .image2{
+
+    width:30% ;
+    height: 155px;
+}
+.photos .image3{
+
+    width:30% ;
+    height: 155px;
+}
+
+
+.prog {
+    font-size: 13px;
+    width: 95%;
+}
+
+.prog-box{
+    width: 90%;
+    padding-bottom: 45px;
+   
+}
+
+.prog-box h2{
+    padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+.last h2{
+    padding-bottom: 0px;
+}
+
+/* DONATE */
+.overlay-donate{
+    width:100% ;
+    height: 255px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.287);
+
+}
+.image4{
+
+    background-image: url(img/easter2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:80% ;
+    height: 255px;
+    border-radius: 10px;
+}
+.donate{
+   
+    width: 50%;
+}
+.donate p{
+    padding: 48px 0 10px 0;
+    width: 100%;
+    font-size: 13px;
+   
+}
+.donate-page{
+    display:  flex;
+    flex-direction: column;
+    height: 100vh;
+     align-items: center;
+    
+ 
+}
+.donate-page p{
+    font-size: 13px;
+}
+
+
+
+.donate-button h4{
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 1px;
+
+}
+
+.donate-button p{
+    padding-bottom: 10px;
+    text-align: center;
+
+
+}
+
+
+#donate{
+    width: 120px;
+
+}
+
+.acc{
+    list-style: none;
+    padding: 20px;
+    background-color: orangered;
+    color:rgb(243, 240, 240);
+    border-radius: 10px;
+    width: 80%;
+}
+.acc li{
+ font-size: 13px;
+}
+/* CONTACT */
+
+  .contact-container {
+
+   width: 75%;
+
+  }
+  
+
+  #contact p{
+
+   font-size: 13PX;
+
+  }
+  
+
+/* FOOTER */
+
+.inner-footer{
+    display: flex;
+    background-color: black;
+    position: absolute;
+     height: 150px;
+    width: 100%;
+    color: rgb(200, 198, 198);
+    text-align: center;
+}
+.footer p {
+   font-size: 6.5px;
+   width: 100%;
+   padding: 2px;
+}
+
+.footer li{
+    font-size: 5px;
+    text-decoration: none;
+    list-style: none;
+    width: 50px;
+    padding: 3px;
+    color: rgb(200, 198, 198);
+ }
+footer a{
+    color: white;
+    
+}
+.footer{
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer h5{
+    color: orangered;
+    font-size: small;
+    width: 100%;
+}
+.copy{
+    width: 100%;
+}
+
+
+.designer {
+    font-size: 5px;
+    padding: 10px;
+    width: 100%;
+}
+
   }
 
 
