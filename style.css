@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+span{
+    visibility: hidden;
+}
 body{
     font-family: 'Karla', sans-serif;
 }
@@ -586,6 +589,7 @@ padding: 2rem;
 color: rgb(0, 0, 0);
 font-size:30px;
 cursor:pointer;
+visibility: visible;
 
 }
 
